@@ -1,0 +1,59 @@
+/* Write your CSS code here. */
+.bgContainer {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.head-card{
+font-size: 20px;
+}
+.text-card{
+font-size: 12px;
+text-align: center;
+}
+
+.image-card {
+  height: 30px;
+  width: 30px;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  width: 300px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px 5px #bfbfbf;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.imagy {
+  height: 30px;
+  width: 30px;
+}
+.ulContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.smContainer {
+  height: 200px;
+  width: 300px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px 5px #bfbfbf;
+}
+.emojiLists {
+  list-style-type: none;
+  margin-right: 15px;
+}
+.heading {
+  color: #0f172a;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
